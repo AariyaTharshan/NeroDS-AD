@@ -1,0 +1,30 @@
+node_modules/
+.env
+__pycache__/
+*.pyc
+dist/
+build/
+*.venv
+*.egg-info/
+.DS_Store
+.idea/
+.vscode/
+*.log
+coverage/
+*.bak
+*.tmp
+*.swp
+# Image files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.webp
+*.svg
+*.tiff
+# Folders to ignore
+PET-MRI/
+*.ipynb_checkpoints
+backend/modal_weights/
+*.pth

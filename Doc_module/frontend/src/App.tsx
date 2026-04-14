@@ -53,7 +53,8 @@ interface PatientHistoryItem {
   created_at: string
 }
 
-const API_BASE = 'http://localhost:5050'
+// const API_BASE = 'http://localhost:5050'
+const API_BASE = 'https://9gdj6sdv-5050.inc1.devtunnels.ms'
 const STORAGE_KEY = 'doc_module_portal_session'
 
 function labelForDiagnosis(diagnosis: string) {
